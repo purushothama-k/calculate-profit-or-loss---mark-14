@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #d3a26a, #64acb4, #d4a2cf);
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+}
+.initial-price-el,
+.quantity-of-stock-el,
+.current-price-el {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.output-msg {
+  margin-top: 2rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.heading-primary {
+  padding: 0.75rem 0;
+}
+.initial-price,
+.current-price,
+.quantity-of-stocks {
+  display: block;
+  margin: 1rem auto;
+  width: 20vw;
+  font-size: 1.5rem;
+  border: 2px solid black;
+}
+.btn {
+  margin-top: 2rem;
+  padding: 0.55rem 2rem;
+  font-size: 1.3rem;
+  border-radius: 7px;
+  background-color: rgb(224, 221, 221);
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  margin-top: 12.3rem;
+  padding: 0.75rem 0;
+}
